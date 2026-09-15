@@ -1,0 +1,9 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+python-multipart==0.0.9
+
+# Real inference stack (used when RETAILEDGE_DEMO_MODE=0):
+opencv-python==4.10.0.84
+ultralytics==8.3.0
+numpy==1.26.4
